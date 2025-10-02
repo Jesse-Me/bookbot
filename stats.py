@@ -17,7 +17,6 @@ def get_char_count(file_contents):
 def get_sorted_char_count(char_count):
     
     sorted_list = []
-    char_count = char_count.isalpha()
     for key, value in char_count.items():
         
         sorted_list.append({"char":key, "num": value})
@@ -30,3 +29,6 @@ def get_sorted_char_count(char_count):
     
     return sorted_list
     
+
+
+def 
